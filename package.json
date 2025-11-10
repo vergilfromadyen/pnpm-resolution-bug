@@ -1,0 +1,13 @@
+{
+  "name": "pnpm-repro",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@10.18.3",
+  "scripts": {
+    "deleteNodeModulesRecursively": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
+    "reset": "pnpm run deleteNodeModulesRecursively && rm pnpm-lock.yaml && pnpm install"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

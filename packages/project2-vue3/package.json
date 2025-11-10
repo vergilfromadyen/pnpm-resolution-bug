@@ -1,0 +1,9 @@
+{
+  "name": "project2-vue3",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "my-shared-lib": "workspace:*",
+    "vue": "^3.5.22"
+  }
+}

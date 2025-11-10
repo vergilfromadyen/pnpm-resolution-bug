@@ -1,0 +1,13 @@
+{
+  "name": "vue2-config",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@vitejs/plugin-vue2": "^2.3.3",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
+  },
+  "devDependencies": {
+    "vue": "2.7.16"
+  }
+}

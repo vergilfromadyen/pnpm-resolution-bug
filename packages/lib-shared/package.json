@@ -1,0 +1,16 @@
+{
+  "name": "my-shared-lib",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "vue": "^2.7.16"
+  },
+  "peerDependencies": {
+    "vue": "2.x || 3.x"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    }
+  }
+}
